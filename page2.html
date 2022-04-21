@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        p {
+            color: rgba(0, 0, 0, 0.7);
+        }
+        
+        .bg {
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: absolute;
+        }
+        
+        .bg-left {
+            width: 70%;
+            background-color: white;
+        }
+        
+        .bg-right {
+            width: 30%;
+            background-color: rgb(0 29 59);
+        }
+        
+        .nav-container {
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .nav-wrapper {
+            margin-left: 50px;
+            display: flex;
+        }
+        
+        .logo {
+            color: rgb(13 133 255);
+            font-weight: 900;
+        }
+        
+        .nav-options {
+            margin: 0 50px;
+        }
+        
+        .nav-options li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        .user-acc {
+            right: 50px;
+            position: absolute;
+        }
+        
+        .user-acc button {
+            border: none;
+            margin: 0 15px;
+            color: white;
+        }
+        
+        .login {
+            padding: 5px;
+            background-color: transparent;
+        }
+        
+        .signup {
+            padding: 7px 15px;
+            border-radius: 7px;
+            background-color: rgb(0 127 255);
+        }
+        
+        .body-container {
+            margin: 50px 50px 0 100px;
+            display: flex;
+        }
+        
+        .left {
+            width: 60%;
+        }
+        
+        .body-container .left h1 {
+            font-size: 2.8em;
+        }
+        
+        .body-container .left p {
+            margin-top: 10px;
+            width: 80%;
+        }
+        
+        .body-container .left .input {
+            padding: 5px;
+            margin: 15px 30px;
+            width: 59.5%;
+            border-radius: 5px;
+            border: rgba(0, 0, 0, 0.2) solid 1px;
+        }
+        
+        .body-container .left .input input {
+            border: none;
+            width: 72%;
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .body-container .left .input button {
+            border: none;
+            outline: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(13 133 255);
+        }
+        
+        .body-container .left .data p {
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        
+        .right {
+            width: 40%;
+        }
+        
+        .right img {
+            width: 80%;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+    </div>
+    <div class="nav-container">
+        <div class="nav-wrapper">
+            <div class="logo">Splitline</div>
+            <div class="nav-options">
+                <ul type="none">
+                    <li>How it works</li>
+                    <li>Pricing</li>
+                    <li>Products</li>
+                    <li>Resources</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+            <div class="user-acc">
+                <button class="login">Login</button>
+                <button class="signup">signUp</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="body-container">
+            <div class="left">
+                <div class="heading">
+                    <h1 style="font-weight: 600;">Track less, work more.<br>Manage your projects <br> your way!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel magni alias nemo autem repudiandae ea quia tempora, ipsum vitae ipsam facilis reiciendis, corporis ratione recusandae?</p>
+                    <div class="input">
+                        <input type="email" placeholder="Enter your Email address">
+                        <button>Get started</button>
+                    </div>
+                </div>
+                <div class="data">
+                    <p>"We care about your data in our <span style="color: rgb(13 133 255); text-decoration: underline; cursor: pointer;">Privacy Policy</span></p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="https://media.istockphoto.com/photos/young-woman-working-on-a-laptop-picture-id613241758?b=1&k=20&m=613241758&s=170667a&w=0&h=F5YuQPSC4i3ZvtFyvzo_zAh83LLEKmsJ8R9A2vsYoUg=" alt="">
+                <img src="https://envato-shoebox-0.imgix.net/6cf6/e295-3474-4048-afe0-40f5b7204ac8/1302.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=410c7d0123e0947ff16dbfe95074d130"
+                    alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
