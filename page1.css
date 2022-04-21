@@ -1,0 +1,95 @@
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.main-container {
+    margin: 50px 0;
+}
+
+.heading h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sub-heading {
+    width: 80%;
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-container {
+    margin: 70px auto;
+    width: 90%;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.card {
+    width: 17%;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px -5px;
+}
+
+.card .card-img {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card .name {
+    margin-bottom: 25px;
+}
+
+.card .name p {
+    margin: 10px auto 5px auto;
+    font-size: 1.4em;
+}
+
+.card .name .post {
+    font-size: 0.8em;
+    margin: 0 0 15px 0;
+}
+
+.card .descreption p {
+    font-size: 0.95em;
+    letter-spacing: 0.8px;
+}
+
+.socials {
+    margin: 20px 0 10px 0;
+}
+
+.socials i {
+    margin: 7px;
+    font-size: 1.3em;
+    color: gray;
+}
+
+.socials i:hover {
+    color: aqua;
+    cursor: pointer;
+}
